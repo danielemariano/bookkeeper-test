@@ -199,11 +199,11 @@
     <spotbugs-maven-plugin.version>3.1.8</spotbugs-maven-plugin.version>
     <forkCount.variable>1</forkCount.variable>
     <servlet-api.version>4.0.0</servlet-api.version>
-	<sonar.projectKey>simobenny8:${project.groupId}:${project.artifactId}</sonar.projectKey>
-    <sonar.links.homepage>https://github.com/simobenny8/bookkeeper</sonar.links.homepage>
-    <sonar.links.ci>https://travis-ci.com/simobenny8/bookkeeper</sonar.links.ci>
-    <sonar.links.scm>https://github.com/simobenny8/bookkeeper</sonar.links.scm>
-    <sonar.links.issue>https://github.com/simobenny8/bookkeeper/issues</sonar.links.issue>
+	  <sonar.projectKey>danielemariano:${project.groupId}:${project.artifactId}</sonar.projectKey>
+    <sonar.links.homepage>https://github.com/danielemariano/bookkeeper-test</sonar.links.homepage>
+    <sonar.links.ci>https://travis-ci.com/danielemariano/bookkeeper-test</sonar.links.ci>
+    <sonar.links.scm>https://github.com/danielemariano/bookkeeper-test</sonar.links.scm>
+    <sonar.links.issue>https://github.com/danielemariano/bookkeeper-test/issues</sonar.links.issue>
     <aggregate.report.dir>tests/target/site/jacoco-aggregate/jacoco.xml</aggregate.report.dir>
   </properties>
 
