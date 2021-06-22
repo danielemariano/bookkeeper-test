@@ -241,7 +241,7 @@
         <artifactId>freebuilder</artifactId>
         <version>${freebuilder.version}</version>
       </dependency>
-      
+
       <!-- logging dependencies -->
       <dependency>
         <groupId>org.slf4j</groupId>
@@ -828,7 +828,8 @@
 		<plugin>
           <groupId>org.sonarsource.scanner.maven</groupId>
           <artifactId>sonar-maven-plugin</artifactId>
-          <version>3.6.0.1398</version>
+          <version>3.2</version>
+          <!--<version>3.6.0.1398</version>-->
         </plugin>
         <plugin>
           <groupId>org.jacoco</groupId>
