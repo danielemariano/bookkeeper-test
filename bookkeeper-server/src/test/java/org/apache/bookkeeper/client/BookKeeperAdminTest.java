@@ -7,7 +7,7 @@ public class BookKeeperAdminTest {
 
     @Test
     public void testInitNewCluster() throws Exception {
-      String parola = "Ciao"
+      String parola = "Ciao";
       Assert.assertTrue("True", parola == "Ciao");
     }
 
