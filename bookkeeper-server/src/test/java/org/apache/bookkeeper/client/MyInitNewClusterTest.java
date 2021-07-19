@@ -66,7 +66,7 @@ public class MyInitNewClusterTest extends BookKeeperClusterTestCase {
       }
 
       try {
-        realResult = BookKeeperAdmin.testInitNewCluster(conf);
+        realResult = BookKeeperAdmin.initNewCluster(conf);
       } catch (Exception e) {
         realResult = false;
         e.printStackTrace();
