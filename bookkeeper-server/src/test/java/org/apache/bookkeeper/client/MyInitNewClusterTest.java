@@ -4,17 +4,23 @@ import org.apache.bookkeeper.conf.ServerConfiguration;
 import org.apache.bookkeeper.test.BookKeeperClusterTestCase;
 
 import org.junit.Test;
-import org.junit.Test.RunWith;
-import org.junit.Parameterized;
+//import org.junit.Test.RunWith;
+//import org.junit.Parameterized;
 import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
 import java.util.Collection;
 
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+import org.junit.runner.RunWith;
+import junit.framework.TestCase;
+
 /**
  * Test initNewCluster in bookkeeper admin.
  */
-@RunWith(value=Parameterized.class)
+//@RunWith(value=Parameterized.class)
+@RunWith(Parameterized.class)
 public class MyInitNewClusterTest extends BookKeeperClusterTestCase {
 
     private boolean result;
