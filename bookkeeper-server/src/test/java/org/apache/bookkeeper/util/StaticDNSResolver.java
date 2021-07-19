@@ -95,11 +95,11 @@ public class StaticDNSResolver extends AbstractDNSToSwitchMapping implements Rac
         rackawarePolicy = rackawareEnsemblePolicy;
     }
 
-    public static void changeRack(List<BookieSocketAddress> bookieAddressList, List<String> rack) {
+    /*public static void changeRack(List<BookieSocketAddress> bookieAddressList, List<String> rack) {
         for (int i = 0; i < bookieAddressList.size(); i++) {
             BookieSocketAddress bkAddress = bookieAddressList.get(i);
             name2Racks.put(bkAddress.getHostName(), rack.get(i));
         }
         rackawarePolicy.onBookieRackChange(bookieAddressList);
-    }
+    }*/
 }
