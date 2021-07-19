@@ -60,7 +60,7 @@ public class ZooKeeperClusterUtil implements ZooKeeperCluster {
         try {
             System.setProperty("build.test.dir", Files.createTempDir().getCanonicalPath());
         } catch (IOException e) {
-            log.error("Failed to create temp dir, so setting build.test.dir system property to /tmp");
+            //log.error("Failed to create temp dir, so setting build.test.dir system property to /tmp");
             System.setProperty("build.test.dir", "/tmp");
         }
     }
