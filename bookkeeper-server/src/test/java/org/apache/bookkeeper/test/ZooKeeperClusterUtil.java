@@ -20,7 +20,8 @@
  */
 package org.apache.bookkeeper.test;
 
-import com.google.common.io.Files;
+//import com.google.common.io.Files;
+import java.nio.file.Files;
 import java.io.IOException;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
@@ -58,7 +59,8 @@ public class ZooKeeperClusterUtil implements ZooKeeperCluster {
         System.setProperty("zookeeper.4lw.commands.whitelist", "*");
         System.setProperty("zookeeper.admin.enableServer", "false");
         try {
-            System.setProperty("build.test.dir", Files.createTempDir().getCanonicalPath());
+            System.setProperty("build.test.dir", Files.createTempDirectory(null, (FileAttribute<?>[]) Files.getAttribute( null, null)).toString());
+            //System.setProperty("build.test.dir", Files.createTempDir().getCanonicalPath());
         } catch (IOException e) {
             //log.error("Failed to create temp dir, so setting build.test.dir system property to /tmp");
             System.setProperty("build.test.dir", "/tmp");
