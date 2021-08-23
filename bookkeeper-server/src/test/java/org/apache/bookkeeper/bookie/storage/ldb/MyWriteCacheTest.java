@@ -28,7 +28,7 @@ import java.util.Arrays;
 
 
 @RunWith(Parameterized.class)
-public class WriteCacheTest {
+public class MyWriteCacheTest {
 
     private ByteBufAllocator allocator;
     private long maxCacheSize;
@@ -45,7 +45,7 @@ public class WriteCacheTest {
 		});
 	}
 
-    public WriteCacheTest(ByteBufAllocator allocator, long maxCacheSize, int bufferSize){
+    public MyWriteCacheTest(ByteBufAllocator allocator, long maxCacheSize, int bufferSize){
         this.maxCacheSize = maxCacheSize;
         this.allocator = allocator;
         this.bufferSize = bufferSize;
