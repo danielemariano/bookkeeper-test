@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/bookkeeper-benchmark/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookkeeper-common-allocator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookkeeper-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookkeeper-dist/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookkeeper-http/http-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookkeeper-http/servlet-http-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookkeeper-http/vertx-http-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookkeeper-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookkeeper-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookkeeper-stats-providers/codahale-metrics-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookkeeper-stats-providers/prometheus-metrics-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookkeeper-stats/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buildtools/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circe-checksum/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circe-checksum/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cpu-affinity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/metadata-drivers/etcd/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microbenchmarks/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stats/utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/bk-grpc-name-resolver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/clients/java/all/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/clients/java/base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/clients/java/kv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/distributedlog/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/distributedlog/core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/distributedlog/core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/distributedlog/io/dlfs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/distributedlog/protocol/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/proto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/statelib/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/storage/api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/storage/impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/tests-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tools/framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tools/ledger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tools/ledger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tools/perf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tools/stream/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tools/stream/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

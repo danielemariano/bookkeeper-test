@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="stream-storage-service-impl" />
+        <module name="bookkeeper-perf" />
+        <module name="distributedlog-core-shaded" />
+        <module name="statelib" />
+        <module name="stream-storage-proto" />
+        <module name="bookkeeper-common-allocator" />
+        <module name="bookkeeper-server-tests-shaded" />
+        <module name="stream-storage-java-client" />
+        <module name="bookkeeper-stats-utils" />
+        <module name="stream-storage-tests-common" />
+        <module name="codahale-metrics-provider" />
+        <module name="distributedlog-core" />
+        <module name="stream-storage-java-client-base" />
+        <module name="bookkeeper-benchmark" />
+        <module name="bookkeeper-common" />
+        <module name="stream-storage-server" />
+        <module name="bk-grpc-name-resolver" />
+        <module name="stream-storage-api" />
+        <module name="bookkeeper-tools-framework" />
+        <module name="http-server" />
+        <module name="bookkeeper-stats-api" />
+        <module name="cpu-affinity" />
+        <module name="vertx-http-server" />
+        <module name="bookkeeper-dist-server" />
+        <module name="bookkeeper-tools-ledger" />
+        <module name="bookkeeper-tools" />
+        <module name="distributedlog-protocol" />
+        <module name="bookkeeper-proto" />
+        <module name="bookkeeper-dist-all" />
+        <module name="bkctl" />
+        <module name="bookkeeper-server" />
+        <module name="stream-storage-common" />
+        <module name="circe-checksum" />
+        <module name="bookkeeper-server-shaded" />
+        <module name="distributedlog-common" />
+        <module name="metadata-stores-etcd" />
+        <module name="stream-storage-java-kv-client" />
+        <module name="stream-storage-service-api" />
+        <module name="stream-storage-cli" />
+        <module name="servlet-http-server" />
+        <module name="buildtools" />
+        <module name="dlfs" />
+        <module name="microbenchmarks" />
+        <module name="prometheus-metrics-provider" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bk-grpc-name-resolver" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bkctl" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-benchmark" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-common" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-common-allocator" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-dist-all" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-dist-server" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-perf" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-proto" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-server" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-server-shaded" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-server-tests-shaded" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-stats-api" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-stats-utils" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-tools" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-tools-framework" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="bookkeeper-tools-ledger" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="buildtools" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="circe-checksum" options="-Xlint:deprecation -Xlint:unchecked -Xpkginfo:always -h /Users/danielemariano/Desktop/bookkeeper-test/circe-checksum/target/nar/javah-include" />
+      <module name="codahale-metrics-provider" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="cpu-affinity" options="-Xlint:deprecation -Xlint:unchecked -Xpkginfo:always -h /Users/danielemariano/Desktop/bookkeeper-test/cpu-affinity/target/nar/javah-include" />
+      <module name="distributedlog-common" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="distributedlog-core" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="distributedlog-core-shaded" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="distributedlog-protocol" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="dlfs" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="http-server" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="metadata-stores-etcd" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="microbenchmarks" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="prometheus-metrics-provider" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="servlet-http-server" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="statelib" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="stream-storage-api" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="stream-storage-cli" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="stream-storage-common" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="stream-storage-java-client" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="stream-storage-java-client-base" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="stream-storage-java-kv-client" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="stream-storage-proto" options="-Xlint:unchecked -Xpkginfo:always" />
+      <module name="stream-storage-server" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="stream-storage-service-api" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="stream-storage-service-impl" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+      <module name="stream-storage-tests-common" options="-Xlint:unchecked -Xpkginfo:always" />
+      <module name="vertx-http-server" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xpkginfo:always" />
+    </option>
+  </component>
+</project>
