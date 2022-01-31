@@ -77,9 +77,9 @@ public class MyWriteCacheTest {
     }
     
     @Test
-    public void cacheFull() throws Exception {
+    public void fillCacheFullTest() throws Exception {
     	
-    	System.out.println("cacheFull");
+    	System.out.println("fillCacheFullTest");
         WriteCache cache = new WriteCache(allocator, maxCacheSize,bufferSize);
     	
         int entriesCount = (int) (maxCacheSize / bufferSize);
