@@ -178,6 +178,12 @@
       <version>${project.parent.version}</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+		<groupId>org.pitest</groupId>
+		<artifactId>pitest-maven</artifactId>
+		<version> 1.5.1 </version>
+		<type>maven-plugin</type>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -268,6 +274,22 @@
         <configuration>
             <source>1.8</source>
             <target>1.8</target>
+        </configuration>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.pitest</groupId>
+        <artifactId>pitest-maven</artifactId>
+      	<version> 1.5.1 </version>
+        <configuration>
+          <targetClasses>
+            <param>org.apache.bookkeeper.bookie.storage.ldb.WriteCache</param>
+            <param>org.apache.bookkeeper.bookie.storage.ldb.ReadCache</param>          
+          </targetClasses>
+          <targetTests>
+            <param>org.apache.bookkeeper.bookie.storage.ldb.MyWriteCacheTest</param>
+	        <param>org.apache.bookkeeper.bookie.storage.ldb.MyReadCacheTest</param>
+          </targetTests>
         </configuration>
       </plugin>
 
